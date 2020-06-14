@@ -380,6 +380,7 @@ dependencies = [
 name = "image_scrapper"
 version = "0.1.0"
 dependencies = [
+ "infer",
  "reqwest",
  "scraper",
  "serde",
@@ -392,6 +393,15 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "c398b2b113b55809ceb9ee3e753fcbac793f1956663f3c36549c1346015c2afe"
 dependencies = [
  "autocfg",
+]
+
+[[package]]
+name = "infer"
+version = "0.1.6"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d55c406a76164eb346a829ed4b97b73cb06259078eca01adeb12e8ca308d4123"
+dependencies = [
+ "byteorder",
 ]
 
 [[package]]
